@@ -5,7 +5,7 @@ on:
     inputs:
       google_services_json:
         description: "google-services.json"
-        required: true
+        required: false
 
 jobs:
   build-alpha:
